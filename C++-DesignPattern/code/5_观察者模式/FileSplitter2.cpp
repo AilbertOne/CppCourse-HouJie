@@ -50,7 +50,7 @@ protected:
 		
 		List<IProgress*>::iterator itor=m_iprogressList.begin();
 
-		while (itor != m_iprogressList.end() )
+		while (itor != m_iprogressList.end() ){
 			(*itor)->DoProgress(value); //更新进度条
 			itor++;
 		}

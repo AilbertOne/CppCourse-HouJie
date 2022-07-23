@@ -16,7 +16,7 @@ public:
 		FileSplitter splitter(filePath, number);
 
 		splitter.addIProgress(this); //订阅通知
-		splitter.addIProgress(&cn)； //订阅通知
+		splitter.addIProgress(&cn); //订阅通知
 
 		splitter.split();
 
