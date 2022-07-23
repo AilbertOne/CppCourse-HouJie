@@ -14,9 +14,9 @@ public:
 
 	void split(){
 
-		//1.╤ах║╢Снд╪Ч
+		//1.Х╞╩Е▐√Е╓╖Ф√┤Д╩╤
 
-		//2.╥жеЗ╢ноРп║нд╪Чжпп╢хК
+		//2.Е┬├Ф┴╧Ф╛║Е░▒Е╟▐Ф√┤Д╩╤Д╦╜Е├≥Е┘╔
 		for (int i = 0; i < m_fileNumber; i++){
 			//...
 			float progressValue = m_fileNumber;
